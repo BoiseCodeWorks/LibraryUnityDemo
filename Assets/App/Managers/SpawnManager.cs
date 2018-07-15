@@ -38,7 +38,7 @@ public class SpawnWave
                 };
                 if (spawnable.SpawnPoint == null)
                 {
-                    var spawnIndex = UnityEngine.Random.Range(0, SpawnPoints.Count - 1);
+                    var spawnIndex = UnityEngine.Random.Range(0, SpawnPoints.Count);
                     enemy.SpawnPoint = SpawnPoints[spawnIndex];
                 }
                 else
